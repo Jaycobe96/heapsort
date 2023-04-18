@@ -58,37 +58,3 @@ static void heapsort(base_t* A, size_t n) {
         heapsort_max_heapify(A, n, 0);
     }
 }
-
-static void read_input(base_t *Arr, size_t size) {
-    for(size_t i = 0; i < size; i++) {
-        base_t val = 0;
-        scanf("%i ", &val);
-        Arr[i] = val;
-    }
-}
-
-static void read_var(base_t *var) {
-    scanf("%u", var);
-}
-
-static void* alloc_array(size_t size) {
-    return malloc(sizeof(base_t) * size);
-}
-
-static void print_Arr_int32(int32_t* Arr, size_t sta, size_t sto) {
-    printf("\n ");
-    for(size_t i = sta; i <= sto; i++) {
-        printf("%i ", Arr[i]);
-    }
-    printf("\n ");
-}
-
-int main()
-{
-    base_t A_test[10] = {8, 5, 3, 9, 6, 1, 3, 18, 0, 20};
-    print_Arr_int32(A_test, 0, 9);
-    size_t n = sizeof(A_test)/sizeof(base_t);
-    heapsort(A_test, n);
-    print_Arr_int32(A_test, 0, 9);
-    return 0;
-}
