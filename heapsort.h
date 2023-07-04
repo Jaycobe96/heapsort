@@ -16,7 +16,6 @@
 #define HEAPSORT_H_
 
 #include <stdint.h>
-#include "ml_types.h"
 
 // int32_t can be changed to other types
 typedef int32_t base_t;
