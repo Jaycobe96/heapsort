@@ -10,6 +10,8 @@
     Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein; Introduction to algorithms fourth edidtion.
 */
 
+#include "heapsort.h"
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
