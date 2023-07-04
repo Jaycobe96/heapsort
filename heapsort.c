@@ -1,3 +1,14 @@
+/*
+    Copyright 2023 Jakub Tomczak jaycobe9@gmail.com
+    
+    This code is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    Algorithm is designed with help of this book:
+    Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein; Introduction to algorithms fourth edidtion.
+*/
 
 #include <stdio.h>
 #include <stdint.h>
@@ -6,9 +17,10 @@
 #include <assert.h>
 #include <stdbool.h>
 
+
+// int32_t can be changed to other types
 typedef int32_t base_t;
 
-//HeapSort (zero indexed)
 static size_t heapsort_parent(size_t i) {
     return ((i+1) >> 1)-1;
 }
