@@ -8,6 +8,8 @@
 
     Algorithm is designed with help of this book:
     Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein; Introduction to algorithms fourth edidtion.
+
+    For any questions or remarks, contact me on e-mail address provided above.
 */
 
 #include "heapsort.h"
