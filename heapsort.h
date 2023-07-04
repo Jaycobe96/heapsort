@@ -16,7 +16,8 @@
 #include <stdint.h>
 #include "ml_types.h"
 
-typedef ml_data_type base_t;
+// int32_t can be changed to other types
+typedef int32_t base_t;
 
 void heapsort(base_t* A, size_t n);
 
