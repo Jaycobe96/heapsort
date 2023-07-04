@@ -1,4 +1,4 @@
-My implementation of zero indexed heapsort in C
+My implementation of zero indexed heapsort in C.
 This pair of .c and .h files can be copied to any C/C++ code basis and should compile without any troubles
 For any questions or remarks, contact me on e-mail address provided below.
 
