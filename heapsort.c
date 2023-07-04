@@ -18,9 +18,6 @@
 #include <stdbool.h>
 
 
-// int32_t can be changed to other types
-typedef int32_t base_t;
-
 static size_t heapsort_parent(size_t i) {
     return ((i+1) >> 1)-1;
 }
